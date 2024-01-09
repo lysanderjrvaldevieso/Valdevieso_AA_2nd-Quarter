@@ -1,0 +1,38 @@
+body{
+		background-color:beige;
+		}
+		
+		h1{
+		text-align: center;
+		}
+		
+		img:nth-of-type(1){
+			transform: translate(350px);
+		}
+		
+		img:nth-of-type(2) {
+			transform: translate(360px)
+		}
+		
+		
+		.navlink li{
+		list-style-type: none;
+		}
+				
+		.navlink li a{
+		text-decoration: none;
+		background-color: rgb(73, 227, 217);
+		float: left;
+		margin-right: 20px;
+		}
+				
+		.navlink {
+		background-color: rgb(73, 227, 217);
+		height: 35px;
+		padding-top: 20px;
+		}
+				
+		.navlink li:hover a{
+		color:white;
+		background-color: rgb(69, 245, 139);
+		}
